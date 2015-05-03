@@ -12,7 +12,7 @@
     "revision": "lp5.1"
   },
   {
-    "remote": "cm",
+    "remote": "github",
     "repository": "777jon/g3_kernel",
     "target_path": "kernel/lge/777jon",
     "revision": "cm-12.1"
