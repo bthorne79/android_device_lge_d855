@@ -1,3 +1,5 @@
+BLISS_AUDIO_MOD := viper;
+
 $(call inherit-product, device/lge/d855/full_d855.mk)
 
 # Inherit some common bliss stuff.
