@@ -1,5 +1,3 @@
-BLISS_AUDIO_MOD := viper;
-
 $(call inherit-product, device/lge/d855/full_d855.mk)
 
 # Inherit some common bliss stuff.
@@ -8,7 +6,7 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/bliss/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := bliss_d855
+PRODUCT_NAME := xenonhd_d855
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
